@@ -3,7 +3,7 @@ Template et instructions pour le projet 2026 IA et Jeux
 
 ## Présentation générale du projet
 
-On propose dans ce projet d'implémenter un jeu stratégique reprenant certaines des notions vues en cours. 
+On propose dans ce projet d'implémenter un jeu stratégique. 
 
 ### Phase de jeu principale
 Chaque jour, deux équipes de plusieurs joueurs disposés sur une carte effectuent un choix sur des ressources à aller collecter. 
