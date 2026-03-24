@@ -84,8 +84,6 @@ Il est ensuite possible de changer la carte utilisée en modifiant le nom de la 
 
 La vitesse d'affichage peut être modifiée avec le paramètre `game.fps`
 
-:warning: Vous n'avez pas à modifier le code de `pySpriteWorld`
-
 ### Module search
 
 Le module `search` qui accompagne le cours est également disponible. Il permet en particulier de créer des problèmes de type grille et donc d'appeler directement certains algorithmes de recherche à base d'heuristiques vus en cours, comme A:star: pour la recherche de chemin.
