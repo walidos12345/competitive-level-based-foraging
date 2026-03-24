@@ -5,7 +5,7 @@
 
 ## Description des choix importants d'implémentation
 
-# 1 la gestion de la mmixed-map
+# 1 la gestion de la mixed-map
 Pour gérer la carte mixed-map (qui mélange les couleurs), j'ai regardé comment le fichier JSON est construit. J'ai remarqué que dans la partie ramassables, le tableau data utilise des numéros précis pour chaque fiole (306 pour jaune, 293 pour bleu, etc.). Mon code calcule l'index (ligne, colonne) de chaque objet sur la carte et va lire ce numéro directement dans la liste data. c'est comme ça que mon code connaît automatiquement la couleur et la règle de chaque fiole.
 
 # 2. simuler_score_map
