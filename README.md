@@ -1,5 +1,4 @@
 # competitive level-based foraging 
-Template et instructions pour le projet 2026 IA et Jeux
 
 ## Présentation générale du projet
 
