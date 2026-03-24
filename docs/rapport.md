@@ -1,8 +1,5 @@
 # Rapport de projet
 
-## Groupe
-* Sedira mohammed 
-
 ## Description des choix importants d'implémentation
 
 # 1 la gestion de la mixed-map
@@ -43,9 +40,7 @@ Le choix au hasard de la prochaine action :
 si je choisi toujours l'action avec le regret maximum, il devient 100% prévisible. Un adversaire intelligent va analyser mon historique, comprendre ma faille, deviner mon prochain coup. En utilisant des probabilités, je favorise mes meilleurs coups tout en gardant une part de hasard pour empêcher l'adversaire de me contrer.
 
 ## Description des résultats
-Comparaison entre les stratégies. Bien indiquer les cartes utilisées.
-
-## RÉSUMÉ 
+Comparaison entre les stratégies sur 100 épisodes .
 
 [yellow-map] Aleatoire    (48) - (11) Tetu
 
