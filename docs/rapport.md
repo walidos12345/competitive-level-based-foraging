@@ -68,42 +68,79 @@ Comparaison entre les stratégies. Bien indiquer les cartes utilisées.
 [yellow-map] Fictitious   (46) - (46) RegretMatch
 
 [red-map] Aleatoire    (13) - (32) Tetu
+
 [red-map] Aleatoire    (3) - (69) Distribution
+
 [red-map] Aleatoire    (3) - (63) Fictitious
+
 [red-map] Aleatoire    (6) - (62) RegretMatch
+
 [red-map] Tetu         (0) - (61) Distribution
+
 [red-map] Tetu         (0) - (100) Fictitious
+
 [red-map] Tetu         (0) - (99) RegretMatch
+
 [red-map] Distribution (16) - (24) Fictitious
+
 [red-map] Distribution (14) - (28) RegretMatch
+
 [red-map] Fictitious   (34) - (60) RegretMatch
+
 [green-map] Aleatoire    (5) - (69) Tetu
+
 [green-map] Aleatoire    (49) - (19) Distribution
+
 [green-map] Aleatoire    (1) - (93) Fictitious
+
 [green-map] Aleatoire    (0) - (94) RegretMatch
+
 [green-map] Tetu         (95) - (0) Distribution
+
 [green-map] Tetu         (1) - (99) Fictitious
+
 [green-map] Tetu         (0) - (100) RegretMatch
+
 [green-map] Distribution (1) - (99) Fictitious
+
 [green-map] Distribution (1) - (99) RegretMatch
+
 [green-map] Fictitious   (7) - (14) RegretMatch
+
 [blue-map] Aleatoire    (59) - (30) Tetu
+
 [blue-map] Aleatoire    (32) - (47) Distribution
+
 [blue-map] Aleatoire    (23) - (61) Fictitious
+
 [blue-map] Aleatoire    (29) - (50) RegretMatch
+
 [blue-map] Tetu         (25) - (75) Distribution
+
 [blue-map] Tetu         (0) - (100) Fictitious
+
 [blue-map] Tetu         (0) - (100) RegretMatch
+
 [blue-map] Distribution (11) - (86) Fictitious
+
 [blue-map] Distribution (34) - (46) RegretMatch
+
 [blue-map] 66   (24) - (55) RegretMatch
+
 [mixed-map] Aleatoire    (27) - (23) Tetu
+
 [mixed-map] Aleatoire    (38) - (35) Distribution
+
 [mixed-map] Aleatoire    (1) - (92) Fictitious
+
 [mixed-map] Aleatoire    (7) - (62) RegretMatch
+
 [mixed-map] Tetu         (100) - (0) Distribution
+
 [mixed-map] Tetu         (0) - (100) Fictitious
+
 [mixed-map] Tetu         (0) - (100) RegretMatch
+
 [mixed-map] Distribution (0) - (98) Fictitious
 [mixed-map] Distribution (0) - (99) RegretMatch
 [mixed-map] Fictitious   (50) - (16) RegretMatch
