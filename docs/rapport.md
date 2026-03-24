@@ -125,7 +125,7 @@ Comparaison entre les stratégies. Bien indiquer les cartes utilisées.
 
 [blue-map] Distribution (34) - (46) RegretMatch
 
-[blue-map] 66   (24) - (55) RegretMatch
+[blue-map] Fictitious  (24) - (55) RegretMatch
 
 [mixed-map] Aleatoire    (27) - (23) Tetu
 
@@ -142,5 +142,7 @@ Comparaison entre les stratégies. Bien indiquer les cartes utilisées.
 [mixed-map] Tetu         (0) - (100) RegretMatch
 
 [mixed-map] Distribution (0) - (98) Fictitious
+
 [mixed-map] Distribution (0) - (99) RegretMatch
+
 [mixed-map] Fictitious   (50) - (16) RegretMatch
