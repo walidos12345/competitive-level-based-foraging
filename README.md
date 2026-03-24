@@ -62,9 +62,9 @@ Une partie se déroule en un nombre fixe de journées. Les scores des joueurs so
 
 ### Module pySpriteWorld
 
-Pour la partie graphique, vous utiliserez le module `pySpriteWorld` (développé par Yann Chevaleyre) qui s'appuie sur `pygame` et permet de manipuler simplement des personnages (sprites), cartes, et autres objets à l'écran.
+Pour la partie graphique, nous utiliserons le module `pySpriteWorld` (développé par Yann Chevaleyre) qui s'appuie sur `pygame` et permet de manipuler simplement des personnages (sprites), cartes, et autres objets à l'écran.
 
-Cinq cartes par défaut vous sont proposées pour ce projet  (`yellow-map`, `red-map`, `green-map`, `blue-map`, `mixed-map`): elles comportent 2 équipes de 8 joueurs et 5 fioles au centre de la carte.   
+Cinq cartes par défaut sont proposées pour ce projet  (`yellow-map`, `red-map`, `green-map`, `blue-map`, `mixed-map`): elles comportent 2 équipes de 8 joueurs et 5 fioles au centre de la carte.   
 
 La gestion de la carte s'opère grâce à des calques:
 * un calque `background`, qui contient le fond de la carte
@@ -72,7 +72,7 @@ La gestion de la carte s'opère grâce à des calques:
 * un calque `ramassable`, qui contiendra les fioles
 
 
-Les joueurs et les ramassables sont des objets Python sur lesquels vous pouvez effectuer des opérations classiques.
+Les joueurs et les ramassables sont des objets Python sur lesquels nous pouvons effectuer des opérations classiques.
 Par exemple, il est possible récupérer leurs coordonnées sur la carte avec `o.get_rowcol(x,y)` ou à l'inverse fixer leurs coordonnées avec `o.set_rowcol(x,y)`.
 La mise à jour sur l'affichage est effective lorsque `mainiteration()` est appelé.
 
@@ -90,24 +90,6 @@ La vitesse d'affichage peut être modifiée avec le paramètre `game.fps`
 
 Le module `search` qui accompagne le cours est également disponible. Il permet en particulier de créer des problèmes de type grille et donc d'appeler directement certains algorithmes de recherche à base d'heuristiques vus en cours, comme A:star: pour la recherche de chemin.
 
-## Travail demandé
+### Rapport
 
-### Semaine 1
-**Prise en main**. A l'éxécution du fichier `main.py`, vous devez observer le comportement suivant: chaque joueur de l'équipe 0 choisit au hasard une fiole et une position libre autour de cette fiole, puis se déplace vers cette position. Puis les joueurs de l'équipe 1 font de même. 
-Lorsque tous les joueurs se sont déplacés, un affichage du nombre de joueurs de chaque équipe autour de chaque fiole est réalisé. 
-Vous devrez bien comprendre le code, implémenter le décompte des points; puis répéter le jeu un nombre fixe d'épisodes, et afficher l'équipe gagnante au final. 
-Afin de préserver l'équité, l'ordre de priorité devrait être inversé chaque joueur. 
-
-### Semaine 2 et 3
-**Mise en place et test de différentes stratégies**. Il est possible de définir pour ce jeu : 
-* des stratégies **stationnaires**: tétu (toujours jouer la même distribution), aléatoire uniforme (chaque joueur choisit de manière uniforme parmi les fioles), aléatoire expert (choisir une distribution parmi un ensemble de distributions prédéfinies), aléatoire avec coordination (pour favoriser les chances de choisir la même fiole), etc. 
-* des stratégies **basées sur l'historique**, qui s'appuient sur les expériences des tours précédents: par exemple **fictitious play**, **regret-matching**
-
-Il est évidemment possible de combiner ces différents pour obtenir des stratégies encore plus complexes. 
-
-### Semaine 4
-**Soutenances**. Celles-ci ont lieu en binôme. Vous présenterez les principaux résultats de votre projet. 
-Il est attendu que vous compariez **au moins 5 stratégies**. 
-Chaque couple de stratégie devra être comparé, sur l'ensemble des cartes disponibles (et plus si vous le souhaitez). 
-Le rapport doit être rédigé en markdown dans le fichier prévu à cet effet dans le répertoire `docs` (voir le template `rapport.md`).
-
+Dans le rappot vous trouvez les choix important de l'implémentation , l'explication des stratégie utilisé et un resumé du tournoi oû chaque couple de stratégie a été comparé, sur l'ensemble des cartes disponibles.
