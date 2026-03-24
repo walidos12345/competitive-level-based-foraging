@@ -45,19 +45,28 @@ si je choisi toujours l'action avec le regret maximum, il devient 100% prévisib
 ## Description des résultats
 Comparaison entre les stratégies. Bien indiquer les cartes utilisées.
 
-==================================================
 ## RÉSUMÉ 
 
 [yellow-map] Aleatoire    (48) - (11) Tetu
+
 [yellow-map] Aleatoire    (16) - (25) Distribution
+
 [yellow-map] Aleatoire    (21) - (32) Fictitious
+
 [yellow-map] Aleatoire    (24) - (32) RegretMatch
+
 [yellow-map] Tetu         (17) - (34) Distribution
+
 [yellow-map] Tetu         (0) - (99) Fictitious
+
 [yellow-map] Tetu         (0) - (99) RegretMatch
+
 [yellow-map] Distribution (46) - (53) Fictitious
+
 [yellow-map] Distribution (37) - (50) RegretMatch
+
 [yellow-map] Fictitious   (46) - (46) RegretMatch
+
 [red-map] Aleatoire    (13) - (32) Tetu
 [red-map] Aleatoire    (3) - (69) Distribution
 [red-map] Aleatoire    (3) - (63) Fictitious
